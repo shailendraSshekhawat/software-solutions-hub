@@ -27,7 +27,7 @@ const handleForm = async (e) => {
     phone,
   };
   try {
-    const res = await fetch('http://localhost:8000/api/form', {
+    const res = await fetch('https://softsol.onrender.com/api/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
