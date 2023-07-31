@@ -3,6 +3,8 @@ const modal = document.querySelector('#modal');
 const modalCloseBtn = document.querySelector('#modal-close-btn');
 const modalOpenBtn = document.querySelector('#modal-open-btn');
 
+// Toast
+
 modalOpenBtn.addEventListener('click', (e) => {
   modal.classList.add('show-modal');
 });
